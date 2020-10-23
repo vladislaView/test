@@ -60,11 +60,10 @@ function addDB($dataNews,$isLike){
 	
 	$arLoadProductArray = Array(
 	  "IBLOCK_SECTION_ID" => false,          // элемент лежит в корне раздела
-	  "IBLOCK_ID"      => $iblock,
+	  "IBLOCK_ID"      => 2,// 
 	  "PROPERTY_VALUES"=> $PROP,
 	  "NAME"           => $name // author
 	  );
-	print_r($arLoadProductArray);
 	if($PRODUCT_ID = $el->Add($arLoadProductArray))
 	  echo "New ID: ".$PRODUCT_ID;
 	else
