@@ -60,7 +60,7 @@ function addDB($dataNews,$isLike){
 	
 	$arLoadProductArray = Array(
 	  "IBLOCK_SECTION_ID" => false,          // элемент лежит в корне раздела
-	  "IBLOCK_ID"      => 2,// 
+	  "IBLOCK_ID"      => 2, //idblock голосов 
 	  "PROPERTY_VALUES"=> $PROP,
 	  "NAME"           => $name // author
 	  );
